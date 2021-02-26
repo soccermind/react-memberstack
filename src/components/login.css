@@ -1,0 +1,23 @@
+.login {
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+}
+
+.login h1 {
+  text-align: center;
+}
+
+.form-login {
+  width: 50%;
+  margin: auto;
+}
+
+@media screen and (max-width: 600px) {
+  .form-login {
+    width: 100%;
+  }
+  .login {
+    width: 85%
+  }
+}

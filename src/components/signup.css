@@ -1,0 +1,23 @@
+.sign-up {
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+}
+
+.sign-up h1 {
+  text-align: center;
+}
+
+.form-signup {
+  width: 50%;
+  margin: auto;
+}
+
+@media screen and (max-width: 600px) {
+  .form-signup {
+    width: 100%;
+  }
+  .sign-up {
+    width: 85%
+  }
+}
