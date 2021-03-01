@@ -23,7 +23,7 @@ const samplePage = () => {
       <h1>Member Logged in!</h1>
         <a ms-profile="true" href="#">Profile</a>
       <div>
-        <Button data-ms-modal="profile" variant="danger">Log out</Button>
+        <Button href="#/ms/logout" variant="danger">Log out</Button>
       </div>
     </div>
   );
