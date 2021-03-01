@@ -22,6 +22,7 @@ const LoginForm = () => {
           Submit
         </Button>
       </Form>
+      <a class="to-login" href="/signup">Not a member? (sign up)</a>
     </div>
   );
 }
