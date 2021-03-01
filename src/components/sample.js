@@ -1,6 +1,5 @@
 import { Button } from "react-bootstrap";
 import './sample.css';
-import logo from '../logo.svg';
 
 const samplePage = () => {
 
@@ -8,8 +7,12 @@ const samplePage = () => {
     <div>
       <h1>Member Logged in!</h1>
       <div>
-        <Button ms-profile="true" variant="primary">Profile</Button>
-        <Button href="#/ms/logout" variant="danger">Log out</Button>
+        <Button ms-profile="true" variant="primary" className="sample-button">
+          Profile
+        </Button>
+        <Button href="#/ms/logout" variant="danger" className="sample-button">
+          Log out
+        </Button>
       </div>
     </div>
   );

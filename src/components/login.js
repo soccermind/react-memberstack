@@ -4,7 +4,7 @@ import './login.css';
 const LoginForm = () => {
 
   return (
-    <div class="login">
+    <div className="login">
        <h1>Log in</h1>
       
       <Form data-ms-form="login" className="form-login">
@@ -22,7 +22,8 @@ const LoginForm = () => {
           Submit
         </Button>
       </Form>
-      <a class="to-login" href="/signup">Not a member? (sign up)</a>
+
+      <a className="to-signup" href="/signup">Not a member? (sign up)</a>
     </div>
   );
 }

@@ -4,7 +4,6 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import SignUpForm from './components/signup';
 import LoginForm from './components/login';
 import SamplePage from './components/sample';
-import NavBar from './components/NavBar';
 
 function App() {
   return (
@@ -17,7 +16,6 @@ function App() {
           <Route path="/sample" component={SamplePage} />
         </Switch>
       </Router>
-      {/* <NavBar /> */}
     </div>
   );
 }

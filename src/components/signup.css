@@ -15,7 +15,7 @@
 
 .to-login {
   padding: 10px;
-  display: inline-block
+  display: inline-block;
 }
 
 @media screen and (max-width: 600px) {

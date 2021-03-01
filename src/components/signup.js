@@ -4,7 +4,7 @@ import './signup.css';
 const SignUpForm = () => {
 
   return (
-    <div class="sign-up">
+    <div className="sign-up">
        <h1>Sign up</h1>
       
       <Form data-ms-form="signup" className="form-signup">
@@ -21,12 +21,11 @@ const SignUpForm = () => {
           <Form.Control data-ms-member="password" type="password" placeholder="Password" />
         </Form.Group>
 
-        <Button 
-        variant="primary" type="submit" >
+        <Button variant="primary" type="submit">
           Submit
         </Button>
       </Form>
-      <a class="to-login" href="/login">Already a member? (log in)</a>
+      <a className="to-login" href="/login">Already a member? (log in)</a>
     </div>
   );
 }
