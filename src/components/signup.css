@@ -13,6 +13,11 @@
   margin: auto;
 }
 
+.to-login {
+  padding: 10px;
+  display: inline-block
+}
+
 @media screen and (max-width: 600px) {
   .form-signup {
     width: 100%;

@@ -26,6 +26,7 @@ const SignUpForm = () => {
           Submit
         </Button>
       </Form>
+      <a class="to-login" href="/login">Already a member? (log in)</a>
     </div>
   );
 }
