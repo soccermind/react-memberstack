@@ -9,14 +9,14 @@ import NavBar from './components/NavBar';
 function App() {
   return (
     <div className="App">
-      {/* <Router>
+      <Router>
         <Switch>
           <Route path="/" exact component={LoginForm} />
           <Route path="/login" component={LoginForm} />
           <Route path="/signup" component={SignUpForm} />
           <Route path="/sample" component={SamplePage} />
         </Switch>
-      </Router> */}
+      </Router>
       <NavBar />
     </div>
   );
